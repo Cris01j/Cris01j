@@ -162,7 +162,7 @@ footer p{
     }
 
     .side-post{
-        width: 42%;
+        width: 42% !important;
         float: left;
         margin: -2% 0 1% 1.6%;
     }
