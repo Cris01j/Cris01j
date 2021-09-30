@@ -2,7 +2,7 @@ body{
     margin: 0;
     padding: 0;
     font-size: 16px;
-    line-height: 1.4cm;
+    line-height: 1cm;
     color: #222;
     background: #efefef;
     font-family: sans-serif;
@@ -47,8 +47,8 @@ col:first-child{
 
 header{
     max-width: 100%;
-    background: #4fffbd;
-    padding: 15px;
+    /*background: #4fffbd;*/
+    padding: 5px;
     background: #00b77b;
 }
 
@@ -142,9 +142,11 @@ footer{
 
 footer h1{
     margin: 20px auto;
+    color: #c0c0c0;
 }
 footer p{
     margin: auto;
+    color: #c0c0c0;
 }
 
 /*900px*/
