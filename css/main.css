@@ -48,7 +48,7 @@ col:first-child{
 header{
     max-width: 100%;
     background: #4fffbd;
-    padding: 20px;
+    padding: 15px;
     background: #00b77b;
 }
 
@@ -148,7 +148,7 @@ footer p{
 }
 
 /*900px*/
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 900px) {
     col{
         margin: 1% 0 1% 0%;
     }
@@ -162,6 +162,61 @@ footer p{
     .side-post{
         width: 42%;
         float: left;
-        margin: -2% 0 1% 1.6%
+        margin: -2% 0 1% 1.6%;
+    }
+}
+
+@media screen and (max-width: 685px){
+    .side-post{
+        width: 100%;
+        padding: 15px;
+        margin: -2 auto 8% auto;
+    }
+
+    .blog-title{
+        font-size: 1.95em;
+    }
+
+    .blog-date{
+        font-size: .9em;
+    }
+}
+
+@media screen and (max-width: 480px){
+    nav ul{
+        max-height: 0;
+    }
+    
+    .reveal{
+        max-height: 19em;
+    }
+
+    nav ul .nav-item{
+        box-sizing: border-box;
+        width: 100%;
+        padding: 15px;
+    }
+
+    .menu-bar{
+        display: block !important;
+    }
+}
+
+@media screen and (max-width: 380px){
+    .blog-content,
+    .post-link{
+        font-size: .9em;
+    }
+    
+    .side-content{
+        font-size: .8em;
+    }
+
+    .button{
+        padding: 10px 15px;
+    }
+
+    .nav-item{
+        font-size: 1.2em;
     }
 }

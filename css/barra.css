@@ -1,0 +1,44 @@
+nav{
+    width: 100%;
+    background: #01c9ab;
+    margin-bottom: 0;
+}
+ul{
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    color: #fff;
+    font-weight: 300;
+    text-align: center;
+    transition: all ease-in-out 1s;
+}
+
+.nav-item{
+    display: inline-block !important;
+    padding: 20px;
+    font-size: 1em;
+    transition: all ease-in-out 250ms;
+
+}
+
+.nav-item:hover{
+    background: #01a98f;
+}
+
+.menu-bar{
+    display: none;
+    width: 100%;
+    box-sizing: border-box;
+    background: #2d2d2d;
+    text-align: left;
+    padding: 5px 20px;
+    color: #fff;
+    font-size: 1.4em;
+    cursor: pointer;
+}
+
+.hamburgesaIcono{
+    clear: both;
+    margin-top: -5px;
+    font-size: 1.4em;
+}
