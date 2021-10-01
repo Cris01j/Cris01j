@@ -222,3 +222,8 @@ footer p{
         font-size: 1.2em;
     }
 }
+
+#gitIcono{
+    text-align: right;
+    cursor: pointer;
+}
