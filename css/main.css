@@ -136,7 +136,7 @@ footer{
     background: #141414;
     display: flex;
     flex-wrap: wrap;
-    padding: 50px;
+    padding: 10px 50px 10px 50px;
     box-sizing: border-box;
 }
 
