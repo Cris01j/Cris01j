@@ -227,3 +227,15 @@ footer p{
     text-align: right;
     cursor: pointer;
 }
+
+#leerMas{
+    text-decoration: underline ;
+    color: #5b00a6 ;
+    font-weight: bold;
+}
+
+#linkYoutube{
+    text-decoration: underline ;
+    color: #5b00a6 ;
+    font-weight: bold;
+}
