@@ -200,6 +200,9 @@ footer p{
     .blog-date{
         font-size: .9em;
     }
+    .col{
+        margin: 0%;
+    }
 }
 
 @media screen and (max-width: 480px){
