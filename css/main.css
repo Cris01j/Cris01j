@@ -149,6 +149,24 @@ footer p{
     color: #c0c0c0;
 }
 
+
+#gitIcono{
+    text-align: right;
+    cursor: pointer;
+}
+
+#leerMas{
+    text-decoration: underline ;
+    color: #5b00a6 ;
+    font-weight: bold;
+}
+
+#linkYoutube{
+    text-decoration: underline ;
+    color: #5b00a6 ;
+    font-weight: bold;
+}
+
 /*900px*/
 @media screen and (max-width: 900px) {
     col{
@@ -221,21 +239,4 @@ footer p{
     .nav-item{
         font-size: 1.2em;
     }
-}
-
-#gitIcono{
-    text-align: right;
-    cursor: pointer;
-}
-
-#leerMas{
-    text-decoration: underline ;
-    color: #5b00a6 ;
-    font-weight: bold;
-}
-
-#linkYoutube{
-    text-decoration: underline ;
-    color: #5b00a6 ;
-    font-weight: bold;
 }
