@@ -180,7 +180,7 @@ footer p{
     }
 
     .side-post{
-        width: 42% !important;
+        width: 42%;
         float: left;
         margin: -2% 0 1% 1.6%;
     }
@@ -188,7 +188,7 @@ footer p{
 
 @media screen and (max-width: 685px){
     .side-post{
-        width: 100%;
+        width: 89%;
         padding: 15px;
         margin: -2 auto 8% auto;
     }
