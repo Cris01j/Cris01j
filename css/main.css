@@ -104,6 +104,16 @@ header{
     text-decoration-color: currentColor;
 }
 
+.proy-title{
+    font-size: 2em;
+    font-weight: 300px;
+    color: #02ac7d;
+    margin: .5%;
+    margin-bottom: 0;
+    text-align: center;
+    text-decoration: none;
+}
+
 .post-link{
     color: #0841a8;
     cursor: pointer;
