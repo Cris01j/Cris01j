@@ -1,3 +1,26 @@
+*{
+    font-family: Arial, sans-serif;
+    font-size: medium;
+    color: #363636;
+}
+#ulEspecial{
+        -webkit-text-size-adjust: 100%;
+		color: #4a4a4a;
+		-webkit-font-smoothing: antialiased;
+		word-wrap: break-word;
+		box-sizing: border-box;
+		padding: 0;
+		border: 0;
+		outline: 0;
+		font: inherit;
+		vertical-align: baseline;
+		font-family: inherit;
+		font-size: 100%;
+		font-style: inherit;
+		font-weight: inherit;
+		margin: 15px 0 15px 20px;
+		text-align: left;
+}
 body{
     --body-font: 'Josefin Sans', Arial, sans-serif;
     --title-font: 'Josefin Sans', Arial, sans-serif;
@@ -274,10 +297,65 @@ col:first-child{
     width: 96%;
 }
 
+h3{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    word-wrap: break-word;
+    box-sizing: border-box;
+    border: 0;
+    outline: 0;
+    font: inherit;
+    vertical-align: baseline;
+    font-style: inherit;
+    font-weight: 600;
+    color: #333;
+    line-height: 1.4;
+    font-size: 34px;
+    padding: 0 0 20px;
+    margin: 0 0 15px;
+    border-bottom: 1px solid #f1f1f1;
+    letter-spacing: 0.6px;
+    border-color: #ff4500;
+    font-family: Josefin Sans;
+}
+
+.list{
+    -webkit-text-size-adjust: 100%;
+    color: #4a4a4a;
+    -webkit-font-smoothing: antialiased;
+    word-wrap: break-word;
+    box-sizing: border-box;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font: inherit;
+    vertical-align: baseline;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 15px 0 15px 20px;
+    text-align: left;
+
+    -webkit-text-size-adjust: 100%;
+    color: #4a4a4a;
+    -webkit-font-smoothing: antialiased;
+    word-wrap: break-word;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font: inherit;
+    vertical-align: baseline;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+}
 
 header{
     max-width: 100%;
-    /*background: #4fffbd;*/
     padding: 5px;
     background: #00b77b;
 }
